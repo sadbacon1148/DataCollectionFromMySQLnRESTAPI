@@ -18,4 +18,8 @@ The project involves the following steps:
 
 6. **Converting to Pandas**: Convert the queried data into pandas dataframes for easier manipulation and analysis.
 
-7. **Data Retrieval from REST API**:
+7. **Data Retrieval from REST API**: Use the request library to retrieve data from a REST API, specifically for currency conversion from GBP to THB.
+
+8. **Data Transformation**: Convert the retrieved data into JSON format, which can be easily converted into a dataframe for further processing.
+
+9. **Date Extraction**: Extract the date information from the InvoiceTimestamp column to facilitate data integration and joining with the currency dataframe.
